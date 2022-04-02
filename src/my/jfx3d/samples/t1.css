@@ -1,0 +1,49 @@
+.root {
+	-fx-background-color: rgb(61, 61, 61);
+}
+
+.top-pane{
+	-fx-pref-height: 32;
+	-fx-max-height: 32;
+	-fx-background-color: rgb(92, 92, 92);
+}
+.center-pane{
+	
+}
+
+.vbox-pane{
+	
+}
+
+.l3d-x, .l3d-y, .l3d-z{
+	-fx-background-color: rgb(44, 44, 44);
+}
+.l3d-x{
+	-fx-text-fill: red;
+}
+.l3d-y{
+	-fx-text-fill: green;
+}
+.l3d-z{
+	-fx-text-fill: blue;
+}
+
+.checkbox-axis-xyz{
+	-fx-text-fill: lightgray;
+}
+
+.my-toolbar{
+	-fx-background-color: transparent;
+}
+
+.toolbar-button{
+	-fx-pref-width: 32;
+	-fx-pref-height: 32;
+	-fx-padding:0;
+	-fx-background-color: gray;
+	-fx-background-radius:0;
+}
+.toolbar-button:hover{
+	-fx-background-color: rgb(167,167,167);
+}
+

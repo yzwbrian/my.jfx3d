@@ -1,0 +1,55 @@
+.root {
+	-fx-background-color: rgb(61, 61, 61);
+}
+.left-pane{
+	-fx-pref-width: 100;
+	-fx-max-width: 100;
+}
+.center-pane{
+}
+.l3d-x{
+	-fx-background-color: gray;
+	-fx-text-fill: red;
+}
+.l3d-y{
+	-fx-background-color: gray;
+	-fx-text-fill: green;
+}
+.l3d-z{
+	-fx-background-color: gray;
+	-fx-text-fill: blue;
+}
+
+.lbl{
+	-fx-pref-width: 28;
+	-fx-pref-height: 28;
+	-fx-max-width: 28;
+	-fx-max-height: 28;
+	-fx-background-color: gray;
+}
+.lbl:hover{
+	-fx-background-color: lightgray;
+}
+.lbl-vbox{
+	-fx-background-color: rgb(61,61,61);
+}
+.vsp-pane{
+	-fx-focus-traversable: false;
+	-fx-padding:0;
+	
+}
+
+.my-toolbar{
+	-fx-background-color: rgb(61,61,61);
+}
+
+.toolbar-button{
+	-fx-pref-width: 32;
+	-fx-pref-height: 32;
+	-fx-padding:0;
+	-fx-background-color: gray;
+	-fx-background-radius:0;
+}
+.toolbar-button:hover{
+	-fx-background-color: rgb(167,167,167);
+}
